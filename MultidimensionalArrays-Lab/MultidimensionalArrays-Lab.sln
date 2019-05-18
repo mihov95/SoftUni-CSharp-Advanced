@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sum Matrix Elements", "01. Sum Matrix Elements\01. Sum Matrix Elements.csproj", "{88486DDD-92B2-43F5-8647-5142B0157650}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Sum Matrix Columns", "02. Sum Matrix Columns\02. Sum Matrix Columns.csproj", "{03B3C948-7D86-4BCF-99F9-FD4C0151A449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Square With Maximum Sum", "05. Square With Maximum Sum\05. Square With Maximum Sum.csproj", "{A9E09367-C1B8-4F54-B00F-F0E47FACEF61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88486DDD-92B2-43F5-8647-5142B0157650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88486DDD-92B2-43F5-8647-5142B0157650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88486DDD-92B2-43F5-8647-5142B0157650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88486DDD-92B2-43F5-8647-5142B0157650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B3C948-7D86-4BCF-99F9-FD4C0151A449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B3C948-7D86-4BCF-99F9-FD4C0151A449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B3C948-7D86-4BCF-99F9-FD4C0151A449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B3C948-7D86-4BCF-99F9-FD4C0151A449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E09367-C1B8-4F54-B00F-F0E47FACEF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E09367-C1B8-4F54-B00F-F0E47FACEF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E09367-C1B8-4F54-B00F-F0E47FACEF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E09367-C1B8-4F54-B00F-F0E47FACEF61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC6E5376-C1CF-4534-BF36-0AFDA29AE8B3}
+	EndGlobalSection
+EndGlobal
