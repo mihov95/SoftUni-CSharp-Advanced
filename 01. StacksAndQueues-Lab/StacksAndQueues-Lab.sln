@@ -11,7 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. StackSum", "02. StackSu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Matching Brackets", "04. Matching Brackets\04. Matching Brackets.csproj", "{B95F5BFB-0151-433D-A64E-D697580CCE75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Hot Potato", "07. Hot Potato\07. Hot Potato.csproj", "{15E28AE9-A8D0-4E4A-977C-A6886C2847A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Hot Potato", "07. Hot Potato\07. Hot Potato.csproj", "{15E28AE9-A8D0-4E4A-977C-A6886C2847A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Print Even Numbers", "05 Print Even Numbers\05 Print Even Numbers.csproj", "{AC627785-3590-4048-869C-E47300DF0545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Supermarket", "06. Supermarket\06. Supermarket.csproj", "{058B05BC-1E9F-43F0-9FDF-970328F5BC09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Traffic Jam", "08. Traffic Jam\08. Traffic Jam.csproj", "{E4393D3A-9778-4FEC-9247-0D433E71597E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{15E28AE9-A8D0-4E4A-977C-A6886C2847A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15E28AE9-A8D0-4E4A-977C-A6886C2847A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15E28AE9-A8D0-4E4A-977C-A6886C2847A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC627785-3590-4048-869C-E47300DF0545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC627785-3590-4048-869C-E47300DF0545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC627785-3590-4048-869C-E47300DF0545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC627785-3590-4048-869C-E47300DF0545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{058B05BC-1E9F-43F0-9FDF-970328F5BC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{058B05BC-1E9F-43F0-9FDF-970328F5BC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{058B05BC-1E9F-43F0-9FDF-970328F5BC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{058B05BC-1E9F-43F0-9FDF-970328F5BC09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4393D3A-9778-4FEC-9247-0D433E71597E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4393D3A-9778-4FEC-9247-0D433E71597E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4393D3A-9778-4FEC-9247-0D433E71597E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4393D3A-9778-4FEC-9247-0D433E71597E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
