@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace _03._Word_Count
@@ -7,6 +8,9 @@ namespace _03._Word_Count
     {
         static void Main(string[] args)
         {
+
+            Dictionary<string, int> dict = new Dictionary<string, int>();
+
             string path = "files";
             string wordsToRead = "words.txt";
             string input = "text.txt";
@@ -19,29 +23,39 @@ namespace _03._Word_Count
                 {
 
                     string[] words = readerWords.ReadLine().Split();
-                    string[] wordsInText = readerText.ReadLine().Split();
+                    string currentSentence = readerText.ReadLine();
 
-                    int counter = 0;
 
-                    foreach (var word in words)
+                    while (currentSentence != null)
                     {
-                        word.ToLower();
+                        string[] wordsInSentece = currentSentence.Split();
 
-                        foreach (var wordToMatch in wordsInText)
+                        foreach (var word in wordsInSentece)
                         {
-                            wordToMatch.ToLower();
-
-                            for (int i = 0; i < wordsInText.Length; i++)
+                            foreach (var wordCheck in words)
                             {
-                                if (wordToMatch == word)
+                                if (wordCheck == word && dict.ContainsKey(word))
                                 {
-                                    counter++;
+                                    dict[word]++;
+                                }
+                                else
+                                {
+                                    dict[word] = 1;
                                 }
                             }
-
-                            Console.WriteLine($"{wordToMatch} - {counter}");
                         }
+
+                        foreach (var word in dict)
+                        {
+                            Console.WriteLine($"{word.Key} - {word.Value}");
+                        }
+                        
+                        currentSentence = readerText.ReadLine();
                     }
+
+
+
+
 
 
                 }
