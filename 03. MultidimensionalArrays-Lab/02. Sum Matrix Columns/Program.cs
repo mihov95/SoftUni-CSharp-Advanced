@@ -7,53 +7,38 @@ namespace _02._Sum_Matrix_Columns
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter matrix dimensions: ");
-            int[] dimensions = Console.ReadLine().
-                Split(", ", StringSplitOptions.RemoveEmptyEntries).
-                Select(int.Parse).
-                ToArray();
+            int[] dimensions = Console.ReadLine()
+                .Split(", ", StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
 
-            int[,] arr = new int[dimensions[0],dimensions[1]];
+            int[,] arr = new int[dimensions[0], dimensions[1]];
 
-            for (int i = 0; i < arr.GetLength(0); i++)
+
+            for (int row = 0; row < arr.GetLength(0); row++)
             {
-                int[] tokens = Console.ReadLine().Split(", ", StringSplitOptions.RemoveEmptyEntries).Select(int.Parse)
+                int[] tokens = Console.ReadLine()
+                    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                    .Select(int.Parse)
                     .ToArray();
 
-                for (int j = 0; j < arr.GetLength(1); j++)
+                for (int col = 0; col < arr.GetLength(1); col++)
                 {
-                    arr[i, j] = tokens[j];
+                    arr[row, col] = tokens[col];
                 }
             }
 
-            Console.Write("First dimension: ");
-            Console.WriteLine(arr.GetLength(0));
-
-            Console.Write("Second dimension: ");
-            Console.WriteLine(arr.GetLength(1));
-
-
-            for (int i = 0; i < arr.GetLength(0); i++)
+            for (int col = 0; col < arr.GetLength(1); col++)
             {
                 int sum = 0;
 
-                for (int j = 0; j < arr.GetLength(1); j++)
+                for (int row = 0; row < arr.GetLength(0); row++)
                 {
-                    sum += arr[i, j];
+                    sum += arr[row, col];
                 }
 
-                Console.Write("Matrix sum: ");
                 Console.WriteLine(sum);
-
             }
-
-            
-
-
-
-
-
-
         }
     }
 }
