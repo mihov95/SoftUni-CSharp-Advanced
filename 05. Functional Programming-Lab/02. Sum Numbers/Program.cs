@@ -8,7 +8,7 @@ namespace _02._Sum_Numbers
         static void Main(string[] args)
         {
             int[] numbers = Console.ReadLine()
-                .Split(',', StringSplitOptions.RemoveEmptyEntries)
+                .Split(", ", StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToArray();
 

@@ -8,7 +8,6 @@ namespace _03._Word_Count
     {
         static void Main(string[] args)
         {
-
             Dictionary<string, int> dict = new Dictionary<string, int>();
 
             string path = "files";
