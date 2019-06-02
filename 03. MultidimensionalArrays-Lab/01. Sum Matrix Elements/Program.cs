@@ -7,7 +7,6 @@ namespace _01._Sum_Matrix_Elements
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter matrix dimensions: ");
             int[] dimensions = Console.ReadLine().
                 Split(", ", StringSplitOptions.RemoveEmptyEntries).
                 Select(int.Parse).
@@ -17,7 +16,9 @@ namespace _01._Sum_Matrix_Elements
 
             for (int i = 0; i < arr.GetLength(0); i++)
             {
-                int[] tokens = Console.ReadLine().Split(", ", StringSplitOptions.RemoveEmptyEntries).Select(int.Parse)
+                int[] tokens = Console.ReadLine()
+                    .Split(", ", StringSplitOptions.RemoveEmptyEntries)
+                    .Select(int.Parse)
                     .ToArray();
 
                 for (int j = 0; j < arr.GetLength(1); j++)
@@ -26,10 +27,7 @@ namespace _01._Sum_Matrix_Elements
                 }
             }
 
-            Console.Write("First dimension: ");
             Console.WriteLine(arr.GetLength(0));
-
-            Console.Write("Second dimension: ");
             Console.WriteLine(arr.GetLength(1));
 
             int sum = 0;
@@ -42,7 +40,6 @@ namespace _01._Sum_Matrix_Elements
                 }
             }
 
-            Console.Write("Matrix sum: ");
             Console.WriteLine(sum);
 
 
