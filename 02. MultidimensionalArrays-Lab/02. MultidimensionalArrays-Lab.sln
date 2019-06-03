@@ -13,9 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Jagged-Array Modificatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. Pascal Triangle", "7. Pascal Triangle\7. Pascal Triangle.csproj", "{2A1F2CB0-2ED1-40AB-A5F8-BCE85EB9C7EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Symbol In Matrix", "4. Symbol In Matrix\4. Symbol In Matrix.csproj", "{C1293781-E340-4DD4-A5C3-FA4808F557C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Symbol In Matrix", "4. Symbol In Matrix\4. Symbol In Matrix.csproj", "{C1293781-E340-4DD4-A5C3-FA4808F557C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Primary Diagonal", "3. Primary Diagonal\3. Primary Diagonal.csproj", "{C0E48A73-9656-475F-B71F-0E354A2D185F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Primary Diagonal", "3. Primary Diagonal\3. Primary Diagonal.csproj", "{C0E48A73-9656-475F-B71F-0E354A2D185F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
