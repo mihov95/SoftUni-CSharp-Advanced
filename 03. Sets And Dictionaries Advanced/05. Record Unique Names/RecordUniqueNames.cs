@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace _05._Record_Unique_Names
 {
-    class Program
+    class RecordUniqueNames
     {
         static void Main(string[] args)
         {
